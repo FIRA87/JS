@@ -110,7 +110,7 @@ function loadData() {
 
 
   } else {
-    console.log('Нет данных для загрузки');
+    console.log('Нет данных для загрузки!');
   }
 }
 
