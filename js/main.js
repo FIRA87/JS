@@ -3,7 +3,6 @@ const formTodo = document.querySelector('#newTaskFrom');
 const input = document.querySelector('#addNewTask');
 const tasksList = document.querySelector('#list-group');
 
-
 // Загрузить данные
 loadData();
 
@@ -114,15 +113,6 @@ function loadData() {
     console.log('Нет данных для загрузки');
   }
 }
-
-
-
-
-
-
-
-
-
 
 // Сохраняем данные localStorage
 //localStorage.setItem('name', 'Fira');
